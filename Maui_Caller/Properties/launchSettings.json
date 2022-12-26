@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Windows Machine": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false,
+      "hotReloadEnabled": false
+    },
+    "Native": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true,
+      "hotReloadEnabled": false
+    },
+    "Hot Reload": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
